@@ -401,6 +401,24 @@ header {
   margin: 2em 0;
 }
 
+.works__img--single img {
+  border-radius: 10px;
+
+}
+
+.works__img--single img:hover {
+  
+}
+
+@keyframes Ani {
+  form {
+    left: 50px;
+  }
+  to {
+    right:  100px;
+  }
+}
+
 .works__img--single:nth-child(odd) {
   padding-top: 5em;
 }
